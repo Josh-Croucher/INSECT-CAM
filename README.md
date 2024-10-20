@@ -6,6 +6,7 @@ In it's current state, the system is quite easy to use. There are 3 components t
 - Pololu 5V Step-Up Voltage Regulator U1V10F5
 - Esp32 CAM
 - A small 1S lipo with dupont connectors soldered onto it
+
 NOTE: The ESP32 CAM used has the breakout pins flipped so that they point out the same side as the camera connector. **As a result, do not directly plug the board into the programmer!**
 To wire everything up, the Battery positive is plugged into the **VIN** on the regulator, and the negative plugged into a **GND** Pin on the ESP32. The **VOUT** of the regulator must then be plugged into the **5V** on the ESP32, and the **GND** of the regulator connected to a **GND** on the ESP32.
 
